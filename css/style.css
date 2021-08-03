@@ -1,0 +1,115 @@
+ import 'https://fonts.googleapis.com/css?family=Varela+Round&subset=hebrew';
+
+html {
+  background: #f6f6f6;
+}
+body {
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.4;
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat; 
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.logo img {
+    float: right;
+    width: 43px;
+    padding-left: 25px;
+}
+.alignleft {
+  float: right;
+  margin-right: 14px;
+}
+.container {
+  max-width: 980px;
+  margin: auto;
+  overflow: auto;
+  color: antiquewhite;
+  padding: 0 30px;
+}
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal;
+}
+h1 {
+    color: #1475bd;
+}
+h2 {
+    color: #1475bd;
+}
+/*menu-site*/
+.main-nav {
+  float: left;
+}
+nav ul {
+  list-style-type: circle;
+  padding: 1;
+  margin: 1;
+  background-color: floralwhite;
+}
+.main-nav {
+  float: inherit;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-top: -31px;
+    
+}
+.main-nav a {
+  text-decoration: none;
+  color: #3d777c;
+  text-decoration-color: white;
+  display: block;
+  padding: 10px 20px;
+}
+.main-nav a:hover {
+  background: #ddd;
+  color: #999;
+}
+.main-select a:hover{ 
+  text-decoration: inherit;
+  color: #999;
+  display: block;
+  padding: 9px 20px;
+}
+/*main-contact*/
+.text {
+    background-color: rgba(255,255,255,0.95);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.text p {
+    color: #000;
+    line-height: 28px;
+    font-size: 18px;
+}
+.text h3{
+    color: #000;
+}
+.side-img img {
+    width: 650px;
+    margin: 0 auto;
+}
+.text-title{
+    color:#000;
+    text-align: center;
+    font-size: 18px;
+}
+ul.player {
+     background-color:rgba(255,255,255,0.95);
+}
+ul.player li {
+    display: inline-block;
+    padding: 70px 30px 20px 23px;
+
+}
+img {
+    display: block;
+    margin-bottom: 15px;
+}
+footer.site-footer .text {
+    background: #fff;
+}
